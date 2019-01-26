@@ -1,8 +1,8 @@
 # Created by https://www.gitignore.io/api/git,vagrant,chefcookbook
 # Edit at https://www.gitignore.io/?templates=git,vagrant,chefcookbook
 
-bin/nodes/*
-bin/vagrant_data/answer.txt
+assets/nodes/*
+assets/vagrant_data/answer.txt
 .vagrant
 
 # Bundler
