@@ -1,0 +1,39 @@
+# Created by https://www.gitignore.io/api/git,vagrant,chefcookbook
+# Edit at https://www.gitignore.io/?templates=git,vagrant,chefcookbook
+
+bin/nodes/*
+bin/vagrant_data/answer.txt
+.vagrant
+
+# Bundler
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.logs
+
+### Vagrant Patch ###
+*.box
+
+# End of https://www.gitignore.io/api/git,vagrant,chefcookbook
