@@ -1,0 +1,1 @@
+This folder is synced with the vagrant vm. Anythin in here will be synced to the /vagrant_data folder on the vm. 
