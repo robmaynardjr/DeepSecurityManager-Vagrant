@@ -2,7 +2,7 @@
 
 ## Prereqs
 
-You will need to create `bin/vagrant_data/answer.txt` 
+You will need to create `assets/vagrant_data/answer.txt` 
 
 This .txt file will contain the variable values required for the silent Deep Security Manager installation. Used the below as a guide to creating your answer.txt file.
 
